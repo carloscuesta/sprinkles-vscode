@@ -1,0 +1,24 @@
+name: Publish
+on:
+  push:
+    tags:
+      - "v*"
+jobs:
+  npm-publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+        with:
+          node-version: "14"
+      - name: Install dependencies 📦
+        run: npm install
+      - name: Publish package to Marketplace 🚀
+        env:
+          VSCODE_PAT: ${{ secrets.VSCODE_TOKEN }}
+        run: npm run publish -- --pat=${{ env.VSCODE_PAT }}
+      - name: Publish GitHub Release 📝
+        uses: softprops/action-gh-release@v1
+        with:
+          name: sprinkles-vscode ${{github.ref_name}}
+          generate_release_notes: true

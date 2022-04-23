@@ -1,0 +1,45 @@
+{
+  "name": "sprinkles-vscode",
+  "displayName": "Sprinkles Theme",
+  "description": "🎨 theme by Carlos Cuesta.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/carloscuesta/sprinkles-vscode"
+  },
+  "version": "1.0.0",
+  "publisher": "carloscuesta",
+  "engines": {
+    "vscode": "^1.66.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "galleryBanner": {
+    "color": "#161719",
+    "theme": "dark"
+  },
+  "icon": "images/icon.png",
+  "contributes": {
+    "themes": [
+      {
+        "label": "Sprinkles",
+        "uiTheme": "vs-dark",
+        "path": "./theme/sprinkles.json"
+      }
+    ]
+  },
+  "devDependencies": {
+    "husky": "^8.0.1",
+    "lint-staged": "^13.0.1",
+    "prettier": "^2.6.2",
+    "vsce": "^2.9.1"
+  },
+  "scripts": {
+    "prepare": "husky install",
+    "lint": "prettier --check .",
+    "publish": "vsce publish"
+  },
+  "lint-staged": {
+    "**/*": "prettier --write --ignore-unknown"
+  }
+}
