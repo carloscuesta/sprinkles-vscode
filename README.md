@@ -1,6 +1,7 @@
 # sprinkles-vscode
 
 [![Build Status](https://img.shields.io/github/workflow/status/carloscuesta/sprinkles-vscode/CI?style=flat-square)](https://github.com/carloscuesta/sprinkles-vscode/actions?query=workflow%3ACI+branch%3Amaster)
+[![License](https://img.shields.io/github/license/carloscuesta/sprinkles-vscode?style=flat-square)](https://github.com/carloscuesta/sprinkles-vscode/blob/master/LICENSE)
 
 <img src="https://user-images.githubusercontent.com/7629661/173159380-de9a964c-feda-463e-808c-229f52619b3a.png" alt="sprinkles-vscode" width="1047">
 
