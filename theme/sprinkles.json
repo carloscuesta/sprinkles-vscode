@@ -54,6 +54,7 @@
     "sideBar.foreground": "#a3a8ae",
     "sideBar.border": "#111314",
     "statusBar.background": "#161719",
+    "statusBar.foreground": "#a3a8ae",
     "statusBar.debuggingBackground": "#161719",
     "statusBar.focusBorder": "#ffffff00",
     "statusBar.noFolderBackground": "#161719",
