@@ -6,7 +6,7 @@
     "type": "git",
     "url": "https://github.com/carloscuesta/sprinkles-vscode"
   },
-  "version": "1.1.0",
+  "version": "1.2.0",
   "publisher": "carloscuesta",
   "engines": {
     "vscode": "^1.66.0"
