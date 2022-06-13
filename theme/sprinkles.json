@@ -562,6 +562,52 @@
       "settings": {
         "foreground": "#FFCB6B"
       }
+    },
+    {
+      "name": "GraphQL - Type",
+      "scope": ["keyword.type.graphql"],
+      "settings": {
+        "foreground": "#FFCB6B"
+      }
+    },
+    {
+      "name": "GraphQL - Variables",
+      "scope": ["variable.graphql"],
+      "settings": {
+        "foreground": "#D4E157"
+      }
+    },
+    {
+      "name": "GraphQL - Punctuation",
+      "scope": ["keyword.operator.nulltype.graphql"],
+      "settings": {
+        "foreground": "#00E5FF"
+      }
+    },
+    {
+      "name": "GraphQL - Keywords",
+      "scope": [
+        "keyword.enum.graphql",
+        "keyword.operation.graphql",
+        "keyword.fragment.graphql"
+      ],
+      "settings": {
+        "foreground": "#FF4081"
+      }
+    },
+    {
+      "name": "GraphQL - Enum value",
+      "scope": ["constant.character.enum.graphql"],
+      "settings": {
+        "foreground": "#FFFFFF"
+      }
+    },
+    {
+      "name": "GraphQL - Query name",
+      "scope": ["entity.name.function.graphql"],
+      "settings": {
+        "foreground": "#40C4FF"
+      }
     }
   ]
 }
