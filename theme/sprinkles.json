@@ -39,6 +39,7 @@
     "list.focusBackground": "#303337",
     "list.hoverBackground": "#303337",
     "list.inactiveSelectionBackground": "#303337",
+    "list.highlightForeground": "#d9dbde",
     "notificationCenter.border": "#111314",
     "notificationCenterHeader.background": "#161719",
     "notificationToast.border": "#111314",
