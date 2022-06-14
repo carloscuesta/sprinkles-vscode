@@ -612,6 +612,38 @@
       "settings": {
         "foreground": "#40C4FF"
       }
+    },
+    {
+      "name": "Shell - Punctuation",
+      "scope": [
+        "punctuation.definition.variable.shell",
+        "punctuation.section.array.shell",
+        "punctuation.definition.logical-expression.shell"
+      ],
+      "settings": {
+        "foreground": "#00E5FF"
+      }
+    },
+    {
+      "name": "Shell - Function",
+      "scope": ["variable.other.special.shell"],
+      "settings": {
+        "foreground": "#FF5252"
+      }
+    },
+    {
+      "name": "Shell - Function",
+      "scope": ["string.interpolated.dollar.shell"],
+      "settings": {
+        "foreground": "#FFFFFF"
+      }
+    },
+    {
+      "name": "Shell - Loop ",
+      "scope": ["meta.scope.for-in-loop.shell"],
+      "settings": {
+        "foreground": "#FF5252"
+      }
     }
   ]
 }
