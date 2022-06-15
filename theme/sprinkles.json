@@ -159,7 +159,8 @@
         "punctuation.section.embedded",
         "punctuation.separator",
         "punctuation.definition.template-expression",
-        "meta.brace.square"
+        "meta.brace.square",
+        "punctuation.definition.binding-pattern.array.js"
       ],
       "settings": {
         "foreground": "#00E5FF"
