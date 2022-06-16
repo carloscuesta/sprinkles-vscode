@@ -18,6 +18,7 @@
     "editor.lineHighlightBackground": "#17191a",
     "editor.selectionBackground": "#a3a8ae46",
     "editor.selectionHighlightBackground": "#a3a8ae46",
+    "editorCursor.foreground": "#1DE9B6",
     "editorGroup.emptyBackground": "#161719",
     "editorGroupHeader.border": "#111314",
     "editorGroupHeader.tabsBackground": "#161719",
