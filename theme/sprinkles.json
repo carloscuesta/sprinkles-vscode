@@ -119,7 +119,11 @@
     },
     {
       "name": "Keyword, Storage",
-      "scope": ["storage.type", "storage.modifier"],
+      "scope": [
+        "storage.type",
+        "storage.modifier",
+        "variable.other.object.tsx"
+      ],
       "settings": {
         "foreground": "#40C4FF"
       }
@@ -155,6 +159,8 @@
         "keyword.operator.optional.js",
         "keyword.operator.type.annotation.js",
         "keyword.operator.assignment.js",
+        "keyword.operator.assignment.tsx",
+        "keyword.operator.optional.tsx",
         "punctuation.definition.parameters",
         "meta.brace.round",
         "punctuation.accessor",
