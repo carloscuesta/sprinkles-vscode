@@ -17,8 +17,13 @@ jobs:
         env:
           VSCODE_PAT: ${{ secrets.VSCODE_TOKEN }}
         run: npm run publish -- --pat=${{ env.VSCODE_PAT }}
+      - name: Get branch names 🌳
+        id: branch-name
+        uses: tj-actions/branch-names@v6
+        with:
+          strip_tag_prefix: "v"
       - name: Publish GitHub Release 📝
         uses: softprops/action-gh-release@v1
         with:
-          name: sprinkles-vscode ${{github.ref_name}}
+          name: ${{steps.branch-name.outputs.tag}}
           generate_release_notes: true
