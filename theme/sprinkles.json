@@ -213,7 +213,8 @@
       "scope": [
         "entity.name.tag",
         "meta.tag.sgml",
-        "markup.deleted.git_gutter"
+        "markup.deleted.git_gutter",
+        "source.yaml constant.language"
       ],
       "settings": {
         "foreground": "#FF5252"
