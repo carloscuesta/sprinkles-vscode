@@ -202,8 +202,8 @@
       }
     },
     {
-      "name": "Typeof",
-      "scope": ["keyword.operator.expression.typeof"],
+      "name": "Keywords",
+      "scope": ["keyword.operator.expression.typeof", "keyword.operator.new"],
       "settings": {
         "foreground": "#00E5FF"
       }
