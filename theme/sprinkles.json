@@ -63,7 +63,6 @@
     "statusBar.foreground": "#a3a8ae",
     "statusBar.noFolderBackground": "#161719",
     "tab.activeBackground": "#1d1f21",
-    "tab.activeBorderTop": "#519fee",
     "tab.border": "#111314",
     "tab.inactiveBackground": "#161719",
     "terminal.ansiBlack": "#252525",
