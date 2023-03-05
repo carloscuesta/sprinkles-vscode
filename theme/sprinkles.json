@@ -19,6 +19,8 @@
     "editor.selectionBackground": "#a3a8ae46",
     "editor.selectionHighlightBackground": "#a3a8ae46",
     "editor.wordHighlightBackground": "#ff000000",
+    "editorBracketMatch.background": "#a3a8ae46",
+    "editorBracketMatch.border": "#a3a8ae",
     "editorCursor.foreground": "#1DE9B6",
     "editorGroup.emptyBackground": "#161719",
     "editorGroupHeader.border": "#1d1f21",
