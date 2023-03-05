@@ -36,6 +36,7 @@
     "vsce": "^2.15.0"
   },
   "scripts": {
+    "build": "ts-node ./src/index.ts",
     "prepare": "husky install",
     "lint": "prettier --check .",
     "publish": "vsce publish"
