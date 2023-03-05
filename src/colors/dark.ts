@@ -4,7 +4,6 @@ export default {
       default: "#161719",
       defaultHover: "#35383C4F",
       overlay: "#111213",
-      input: "#0F1011",
     },
     foreground: {
       default: "#A3A8AE",
@@ -18,6 +17,21 @@ export default {
       inset: "#35383CE8",
       overlay: "#222327",
     },
+    badge: {
+      background: "#FF5252",
+      foreground: "#FFFFFF",
+    },
+    input: {
+      background: "#0F1011",
+    },
+    inputOption: {
+      default: "#42A5F5",
+    },
+    notifications: {
+      error: "#FF443E",
+      info: "#42A5F5",
+      warning: "#FFC135",
+    },
     button: {
       primary: {
         background: "#2B2E31",
@@ -28,6 +42,8 @@ export default {
   editor: {
     activeLineBackground: "#17191A",
     background: "#1D1F21",
+    foreground: "#FFFFFF",
+    cursor: "#1DE9B6",
     error: "#FB8181",
     lineNumbers: "#FFFFFF20",
     ruler: "#25292C",
@@ -51,6 +67,11 @@ export default {
       added: "#DAE56D",
       conflicting: "#67F0FF",
       modified: "#FACC73",
+    },
+    gutter: {
+      added: "#d4e157",
+      deleted: "#FF5252",
+      modified: "#FFCB6B",
     },
   },
   terminal: {
