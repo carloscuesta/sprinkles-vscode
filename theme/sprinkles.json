@@ -5,6 +5,8 @@
   "colors": {
     "activityBar.background": "#161719",
     "activityBarBadge.background": "#161719",
+    "badge.background": "#FF5252",
+    "badge.foreground": "#ffffff",
     "button.background": "#2b2e31",
     "button.foreground": "#a3a8ae",
     "button.hoverBackground": "#35393c",
