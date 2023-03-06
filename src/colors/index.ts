@@ -1,6 +1,6 @@
 import dark from "./dark";
 
-type Variant = "light" | "dark";
+type Variant = "dark";
 
 type Colors = typeof dark;
 
