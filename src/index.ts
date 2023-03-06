@@ -3,6 +3,7 @@ import { writeFile, mkdir } from "fs/promises";
 import theme from "./theme";
 
 (async () => {
+  const themesDirectory = "./themes";
   const darkTheme = theme("Sprinkles Dark", "dark");
 
   const writeTheme = async <Theme>(fileName: string, theme: Theme) => {
@@ -10,11 +11,11 @@ import theme from "./theme";
       console.log(`ℹ️  Writing theme: ${fileName}`);
 
       await writeFile(
-        `./themes/${fileName}.json`,
+        `${themesDirectory}/${fileName}.json`,
         JSON.stringify(theme, null, 2)
       );
 
-      console.log(`✅ Created theme: ${fileName}`);
+      console.log(`✅ Created theme: ${fileName}\n`);
     } catch (error) {
       if (error instanceof Error) {
         console.error(`❌ Error theme: ${fileName}, reason: ${error.message}`);
@@ -23,7 +24,7 @@ import theme from "./theme";
   };
 
   try {
-    await mkdir("./themes", { recursive: true });
+    await mkdir(themesDirectory, { recursive: true });
 
     await writeTheme("sprinkles-dark", darkTheme);
   } catch (error) {
