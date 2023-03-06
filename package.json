@@ -22,9 +22,9 @@
   "contributes": {
     "themes": [
       {
-        "label": "Sprinkles",
+        "label": "Sprinkles Dark",
         "uiTheme": "vs-dark",
-        "path": "./theme/sprinkles.json"
+        "path": "./themes/sprinkles-dark.json"
       }
     ]
   },
