@@ -1,7 +1,7 @@
 {
   "name": "sprinkles-vscode",
   "displayName": "Sprinkles Theme",
-  "description": "🎨 theme by Carlos Cuesta.",
+  "description": "A sprinkled syntax theme with vibrant pops of colors 🍩",
   "repository": {
     "type": "git",
     "url": "https://github.com/carloscuesta/sprinkles-vscode"
