@@ -4,7 +4,7 @@ import theme from "./theme";
 
 (async () => {
   const themesDirectory = "./themes";
-  const darkTheme = theme("Sprinkles Dark", "dark");
+  const darkTheme = theme("dark");
 
   const writeTheme = async <Theme>(fileName: string, theme: Theme) => {
     try {

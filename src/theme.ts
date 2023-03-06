@@ -1,13 +1,15 @@
+import startCase from "lodash.startcase";
+
 import getColors from "./colors";
 
 type Variant = "dark";
 
-const theme = (name: string, type: Variant) => {
+const theme = (type: Variant) => {
   const colors = getColors(type);
 
   return {
     $schema: "vscode://schemas/color-theme",
-    name,
+    name: startCase(`Sprinkles ${type}`),
     type,
     colors: {
       "activityBar.background": colors.canvas.background.default,

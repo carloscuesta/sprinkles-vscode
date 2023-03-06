@@ -29,8 +29,10 @@
     ]
   },
   "devDependencies": {
+    "@types/lodash.startcase": "4.4.7",
     "husky": "^8.0.3",
     "lint-staged": "^13.1.2",
+    "lodash.startcase": "4.4.0",
     "prettier": "^2.8.4",
     "ts-node": "10.9.1",
     "vsce": "^2.15.0"
