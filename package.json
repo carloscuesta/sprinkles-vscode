@@ -25,6 +25,11 @@
         "label": "Sprinkles Dark",
         "uiTheme": "vs-dark",
         "path": "./themes/sprinkles-dark.json"
+      },
+      {
+        "label": "Sprinkles Light",
+        "uiTheme": "vs",
+        "path": "./themes/sprinkles-light.json"
       }
     ]
   },
