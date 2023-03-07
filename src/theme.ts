@@ -1,10 +1,22 @@
 import startCase from "lodash.startcase";
 
-import getColors from "./colors";
+import getColors, { type Variant } from "./colors";
 
-type Variant = "dark";
+type Theme = {
+  $schema: string;
+  name: string;
+  type: Variant;
+  colors: {
+    [key: string]: string;
+  };
+  tokenColors: {
+    name: string;
+    scope: string[];
+    settings: { foreground?: string; fontStyle?: string };
+  }[];
+};
 
-const theme = (type: Variant) => {
+const theme = (type: Variant): Theme => {
   const colors = getColors(type);
 
   return {

@@ -1,6 +1,6 @@
 import dark from "./dark";
 
-type Variant = "dark";
+export type Variant = "dark";
 
 type Colors = typeof dark;
 
