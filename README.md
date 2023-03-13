@@ -9,7 +9,7 @@
 
 </div>
 
-<img src="https://user-images.githubusercontent.com/7629661/223236754-d9d7c194-7ec8-49ac-974d-1a9ed3dde5d9.png" alt="sprinkles-vscode" width="1452">
+<img src="https://user-images.githubusercontent.com/7629661/224831104-62118624-f2c8-46da-9bf9-02a24781a544.gif" alt="sprinkles-vscode" width="1600">
 
 ## Install
 
@@ -22,6 +22,16 @@
 
 1. Open _Command Palette_ > _Preferences: Color Theme_
 2. Select `Sprinkles` from the dropdown
+
+## Screenshots
+
+### Dark
+
+<img width="1512" alt="Sprinkles Theme VSCode Dark" src="https://user-images.githubusercontent.com/7629661/224831300-c65fe336-7a41-40ea-8049-572d105eced5.png">
+
+### Light
+
+<img width="1512" alt="Sprinkles Theme VSCode Light" src="https://user-images.githubusercontent.com/7629661/224831295-53e6875d-f947-4ddb-992d-dcd3f0f45dd1.png">
 
 ## Colors
 
