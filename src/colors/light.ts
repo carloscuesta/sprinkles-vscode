@@ -1,28 +1,28 @@
 export default {
   canvas: {
     background: {
-      default: "#161719",
-      defaultHover: "#35383C4F",
-      overlay: "#111213",
+      default: "#f6f8fa",
+      defaultHover: "#eaeef2",
+      overlay: "#ffffff",
     },
     foreground: {
-      default: "#A3A8AE",
-      muted: "#A3A8AEB8",
-      opacity: "#A3A8AE46",
-      highlight: "#DED9D9",
+      default: "#24292f",
+      muted: "#57606A",
+      opacity: "#57606A46",
+      highlight: "#097ADA",
     },
     invisible: "#FFFFFF00",
     border: {
-      default: "#8C929A",
-      inset: "#35383CE8",
-      overlay: "#222327",
+      default: "#727D8A",
+      inset: "#e8eaec",
+      overlay: "#f6f8fa",
     },
     badge: {
       background: "#FF5252",
       foreground: "#FFFFFF",
     },
     input: {
-      background: "#0F1011",
+      background: "#FFFFFF",
     },
     inputOption: {
       default: "#42A5F5",
