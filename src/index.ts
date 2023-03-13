@@ -4,7 +4,6 @@ import theme from "./theme";
 
 (async () => {
   const themesDirectory = "./themes";
-  const darkTheme = theme("dark");
 
   const writeTheme = async <Theme>(fileName: string, theme: Theme) => {
     try {
@@ -26,7 +25,8 @@ import theme from "./theme";
   try {
     await mkdir(themesDirectory, { recursive: true });
 
-    await writeTheme("sprinkles-dark", darkTheme);
+    await writeTheme("sprinkles-dark", theme("dark"));
+    await writeTheme("sprinkles-light", theme("light"));
   } catch (error) {
     if (error instanceof Error) {
       throw Error(error.message);

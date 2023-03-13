@@ -144,7 +144,7 @@ const theme = (type: Variant): Theme => {
           "constant.other.color",
         ],
         settings: {
-          foreground: colors.editor.tokens.white,
+          foreground: colors.editor.tokens.default,
         },
       },
       {
@@ -535,7 +535,7 @@ const theme = (type: Variant): Theme => {
           "punctuation.definition.list_item.markdown",
         ],
         settings: {
-          foreground: colors.editor.tokens.white,
+          foreground: colors.editor.tokens.default,
         },
       },
       {
@@ -650,7 +650,7 @@ const theme = (type: Variant): Theme => {
         name: "GraphQL - Enum value",
         scope: ["constant.character.enum.graphql"],
         settings: {
-          foreground: colors.editor.tokens.white,
+          foreground: colors.editor.tokens.default,
         },
       },
       {
@@ -682,7 +682,7 @@ const theme = (type: Variant): Theme => {
         name: "Shell - Function",
         scope: ["string.interpolated.dollar.shell"],
         settings: {
-          foreground: colors.editor.tokens.white,
+          foreground: colors.editor.tokens.default,
         },
       },
       {

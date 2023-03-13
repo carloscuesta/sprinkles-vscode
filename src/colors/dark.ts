@@ -53,7 +53,7 @@ export default {
       pink: "#FF4081",
       green: "#D4E157",
       amber: "#FFCB6B",
-      white: "#FFFFFF",
+      default: "#FFFFFF",
       teal: "#1DE9B6",
       cyan: "#00E5FF",
       blue: "#40C4FF",
