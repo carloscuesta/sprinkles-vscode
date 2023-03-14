@@ -63,11 +63,6 @@ export default {
       softRed: "#FF5370",
       softViolet: "#C792EA",
     },
-    git: {
-      added: "#DAE56D",
-      conflicting: "#67F0FF",
-      modified: "#FACC73",
-    },
     gutter: {
       added: "#d4e157",
       deleted: "#FF5252",
