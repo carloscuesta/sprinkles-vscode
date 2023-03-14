@@ -58,13 +58,6 @@ const theme = (type: Variant): Theme => {
       "editorRuler.foreground": colors.editor.ruler,
       "editorWidget.background": colors.canvas.background.default,
       focusBorder: colors.canvas.border.default,
-      "gitDecoration.addedResourceForeground": colors.editor.git.added,
-      "gitDecoration.conflictingResourceForeground":
-        colors.editor.git.conflicting,
-      "gitDecoration.deletedResourceForeground": colors.editor.error,
-      "gitDecoration.modifiedResourceForeground": colors.editor.warning,
-      "gitDecoration.untrackedResourceForeground": colors.editor.git.added,
-      "gitDecoration.renamedResourceForeground": colors.editor.git.added,
       "input.background": colors.canvas.input.background,
       "input.border": colors.canvas.border.inset,
       "inputOption.activeBackground": colors.canvas.inputOption.default,
