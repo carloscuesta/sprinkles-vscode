@@ -35,8 +35,8 @@ export default {
     },
     button: {
       primary: {
-        background: "#2B2E31",
-        hover: "#35393C",
+        background: "#FFFFFF",
+        hover: "#eaeef2",
       },
     },
   },
