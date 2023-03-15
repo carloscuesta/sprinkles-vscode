@@ -93,6 +93,7 @@ const theme = (type: Variant): Theme => {
       "scrollbar.shadow": colors.canvas.invisible,
       "sideBar.background": colors.canvas.background.default,
       "sideBar.foreground": colors.canvas.foreground.default,
+      "sideBarSectionHeader.background": colors.canvas.background.default,
       "statusBar.background": colors.canvas.background.default,
       "statusBar.debuggingBackground": colors.canvas.background.default,
       "statusBar.focusBorder": colors.canvas.invisible,
