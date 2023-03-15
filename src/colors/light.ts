@@ -16,6 +16,7 @@ export default {
       default: "#727D8A",
       inset: "#e8eaec",
       overlay: "#f6f8fa",
+      sidebar: "#42A5F5",
     },
     badge: {
       background: "#FF5252",
