@@ -34,6 +34,7 @@ const theme = (type: Variant): Theme => {
       "badge.background": colors.canvas.badge.background,
       "badge.foreground": colors.canvas.badge.foreground,
       "button.background": colors.canvas.button.primary.background,
+      "button.border": colors.canvas.border.inset,
       "button.foreground": colors.canvas.foreground.default,
       "button.hoverBackground": colors.canvas.button.primary.hover,
       "button.secondaryBackground": colors.canvas.button.primary.background,
