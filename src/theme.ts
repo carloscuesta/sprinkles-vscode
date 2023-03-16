@@ -100,6 +100,7 @@ const theme = (type: Variant): Theme => {
       "statusBar.foreground": colors.canvas.foreground.default,
       "statusBar.noFolderBackground": colors.canvas.background.default,
       "statusBarItem.remoteForeground": colors.canvas.foreground.default,
+      "statusBarItem.remoteBackground": colors.canvas.background.default,
       "tab.activeBackground": colors.editor.background,
       "tab.border": colors.canvas.border.overlay,
       "tab.inactiveBackground": colors.canvas.background.default,
