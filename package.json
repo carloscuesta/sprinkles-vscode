@@ -39,7 +39,7 @@
     "lint-staged": "^13.2.0",
     "lodash.startcase": "4.4.0",
     "nodemon": "2.0.21",
-    "prettier": "^2.8.4",
+    "prettier": "^2.8.7",
     "ts-node": "10.9.1",
     "vsce": "^2.15.0"
   },
