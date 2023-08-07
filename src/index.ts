@@ -11,7 +11,7 @@ import theme from "./theme";
 
       await writeFile(
         `${themesDirectory}/${fileName}.json`,
-        JSON.stringify(theme, null, 2)
+        JSON.stringify(theme, null, 2),
       );
 
       console.log(`✅ Created theme: ${fileName}\n`);
