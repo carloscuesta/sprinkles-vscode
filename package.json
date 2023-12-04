@@ -34,7 +34,7 @@
     ]
   },
   "devDependencies": {
-    "@types/lodash.startcase": "4.4.8",
+    "@types/lodash.startcase": "4.4.9",
     "husky": "^8.0.3",
     "lint-staged": "^15.1.0",
     "lodash.startcase": "4.4.0",
