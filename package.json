@@ -40,7 +40,7 @@
     "lodash.startcase": "4.4.0",
     "nodemon": "3.0.1",
     "prettier": "^3.1.0",
-    "ts-node": "10.9.1",
+    "ts-node": "10.9.2",
     "vsce": "^2.15.0"
   },
   "scripts": {
