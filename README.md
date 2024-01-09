@@ -18,10 +18,28 @@
 1. Open _Command Palette_ > _Install Extensions_
 2. Search for `sprinkles-theme` and install
 
+### Module
+
+You can also install the theme as a node module:
+
+```bash
+npm install sprinkles-vscode
+```
+
 ## Usage
+
+### VSCode
 
 1. Open _Command Palette_ > _Preferences: Color Theme_
 2. Select `Sprinkles` from the dropdown
+
+### Module
+
+You can import the theme anywhere by installing it as a dependency:
+
+```js
+import dark from "sprinkles-vscode/themes/sprinkles-dark.json";
+```
 
 ## Screenshots
 
