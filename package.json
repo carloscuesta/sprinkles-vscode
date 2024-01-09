@@ -51,7 +51,7 @@
     "dev": "nodemon --watch src/**",
     "prepare": "husky install",
     "lint": "prettier --check .",
-    "publish": "vsce publish"
+    "publish:vsce": "vsce publish"
   },
   "lint-staged": {
     "**/*": "prettier --write --ignore-unknown"

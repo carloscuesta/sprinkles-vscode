@@ -18,7 +18,7 @@ jobs:
       - name: Publish package to Marketplace 🚀
         env:
           VSCODE_PAT: ${{ secrets.VSCODE_TOKEN }}
-        run: npm run publish -- --pat=${{ env.VSCODE_PAT }}
+        run: npm run publish:vsce -- --pat=${{ env.VSCODE_PAT }}
       - name: Publish package to NPM 🚀
         env:
           NPM_TOKEN: ${{ secrets.NPM_AUTOMATION_TOKEN }}
