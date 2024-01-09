@@ -19,6 +19,10 @@
     "theme": "dark"
   },
   "icon": "images/icon.png",
+  "files": [
+    "themes"
+  ],
+  "main": "themes/index.js",
   "contributes": {
     "themes": [
       {
