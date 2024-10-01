@@ -39,7 +39,7 @@
   "devDependencies": {
     "@types/lodash.startcase": "4.4.9",
     "husky": "^9.1.5",
-    "lint-staged": "^15.2.9",
+    "lint-staged": "^15.2.10",
     "lodash.startcase": "4.4.0",
     "nodemon": "3.1.4",
     "prettier": "^3.3.3",
