@@ -15,7 +15,7 @@ export default {
     border: {
       default: "#727D8A",
       inset: "#e8eaec",
-      overlay: "#ffffff",
+      overlay: "#e8eaec",
       sidebar: "#42A5F5",
     },
     badge: {
