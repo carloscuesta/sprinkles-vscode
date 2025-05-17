@@ -62,6 +62,7 @@ const theme = (type: Variant): Theme => {
       "editorLineNumber.activeForeground": colors.canvas.foreground.default,
       "editorLineNumber.foreground": colors.editor.lineNumbers,
       "editorRuler.foreground": colors.editor.ruler,
+      "editorWhitespace.foreground": colors.editor.whiteSpace,
       "editorWidget.background": colors.canvas.background.default,
       focusBorder: colors.canvas.border.default,
       "input.background": colors.canvas.input.background,

@@ -47,7 +47,8 @@ export default {
     cursor: "#24292f",
     error: "#CF222E",
     lineNumbers: "#1B1F234D",
-    ruler: "#EAEEF2",
+    whiteSpace: "#1B1F234D",
+    ruler: "#e8eaec",
     warning: "#9A6700",
     tokens: {
       red: "#DC3838",
