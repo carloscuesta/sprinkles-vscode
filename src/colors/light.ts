@@ -1,7 +1,7 @@
 export default {
   canvas: {
     background: {
-      default: "#f6f8fa",
+      default: "#ffffff",
       defaultHover: "#eaeef2",
       overlay: "#ffffff",
     },
@@ -15,7 +15,7 @@ export default {
     border: {
       default: "#727D8A",
       inset: "#e8eaec",
-      overlay: "#f6f8fa",
+      overlay: "#ffffff",
       sidebar: "#42A5F5",
     },
     badge: {
@@ -71,7 +71,7 @@ export default {
     },
   },
   terminal: {
-    background: "#f6f8fa",
+    background: "#ffffff",
     black: "#252525",
     blue: "#42A5F5",
     cyan: "#00ACC1",
