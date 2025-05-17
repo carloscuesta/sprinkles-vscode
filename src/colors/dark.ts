@@ -1,7 +1,7 @@
 export default {
   canvas: {
     background: {
-      default: "#161719",
+      default: "#111213",
       defaultHover: "#35383C4F",
       overlay: "#111213",
     },
@@ -42,7 +42,7 @@ export default {
   },
   editor: {
     activeLineBackground: "#17191A",
-    background: "#1D1F21",
+    background: "#111213",
     foreground: "#FFFFFF",
     cursor: "#1DE9B6",
     error: "#FB8181",
@@ -71,7 +71,7 @@ export default {
     },
   },
   terminal: {
-    background: "#161719",
+    background: "#111213",
     black: "#252525",
     blue: "#42A5F5",
     cyan: "#00ACC1",
