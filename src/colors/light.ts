@@ -66,7 +66,7 @@ export default {
     },
     gutter: {
       added: "#4ac26b",
-      deleted: "#ff8182v",
+      deleted: "#ff8182",
       modified: "#eac54f",
     },
   },
