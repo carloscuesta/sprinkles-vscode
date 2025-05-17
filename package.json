@@ -48,7 +48,7 @@
   },
   "scripts": {
     "build": "ts-node ./src/index.ts",
-    "dev": "nodemon --watch src/**",
+    "dev": "nodemon --watch src --watch src/**",
     "prepare": "husky install",
     "lint": "prettier --check .",
     "publish:vsce": "vsce publish"
