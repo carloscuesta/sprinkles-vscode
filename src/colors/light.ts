@@ -1,8 +1,9 @@
 export default {
   canvas: {
     background: {
-      default: "#f6f8fa",
-      defaultHover: "#eaeef2",
+      default: "#ffffff",
+      defaultHover: "#f3f4f6",
+      defaultActive: "#f3f4f6",
       overlay: "#ffffff",
     },
     foreground: {
@@ -13,9 +14,9 @@ export default {
     },
     invisible: "#FFFFFF00",
     border: {
-      default: "#727D8A",
+      default: "#d1d5db",
       inset: "#e8eaec",
-      overlay: "#f6f8fa",
+      overlay: "#e8eaec",
       sidebar: "#42A5F5",
     },
     badge: {
@@ -47,7 +48,8 @@ export default {
     cursor: "#24292f",
     error: "#CF222E",
     lineNumbers: "#1B1F234D",
-    ruler: "#EAEEF2",
+    whiteSpace: "#1B1F234D",
+    ruler: "#e8eaec",
     warning: "#9A6700",
     tokens: {
       red: "#DC3838",
@@ -66,12 +68,12 @@ export default {
     },
     gutter: {
       added: "#4ac26b",
-      deleted: "#ff8182v",
+      deleted: "#ff8182",
       modified: "#eac54f",
     },
   },
   terminal: {
-    background: "#f6f8fa",
+    background: "#ffffff",
     black: "#252525",
     blue: "#42A5F5",
     cyan: "#00ACC1",

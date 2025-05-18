@@ -9,7 +9,7 @@
 
 </div>
 
-<img src="https://user-images.githubusercontent.com/7629661/224831104-62118624-f2c8-46da-9bf9-02a24781a544.gif" alt="sprinkles-vscode" width="1600">
+<img src="https://res.cloudinary.com/carloscuesta/image/upload/v1747600526/sprinkles-vscode_axuznh.gif" alt="sprinkles-vscode" width="1600">
 
 ## Install
 
@@ -46,11 +46,11 @@ import light from "sprinkles-vscode/themes/sprinkles-light.json";
 
 ### Dark
 
-<img width="1512" alt="Sprinkles Theme VSCode Dark" src="https://user-images.githubusercontent.com/7629661/224831300-c65fe336-7a41-40ea-8049-572d105eced5.png">
+<img width="1512" alt="Sprinkles Theme VSCode Dark" src="https://res.cloudinary.com/carloscuesta/image/upload/v1747600141/sprinkles-dark_xhjgjh.png">
 
 ### Light
 
-<img width="1512" alt="Sprinkles Theme VSCode Light" src="https://user-images.githubusercontent.com/7629661/224831295-53e6875d-f947-4ddb-992d-dcd3f0f45dd1.png">
+<img width="1512" alt="Sprinkles Theme VSCode Light" src="https://res.cloudinary.com/carloscuesta/image/upload/v1747600141/sprinkles-light_ojcoxw.png">
 
 ## Colors
 

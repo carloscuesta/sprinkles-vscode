@@ -1,8 +1,9 @@
 export default {
   canvas: {
     background: {
-      default: "#161719",
-      defaultHover: "#35383C4F",
+      default: "#111213",
+      defaultHover: "#1a1d1e",
+      defaultActive: "#1a1d1e",
       overlay: "#111213",
     },
     foreground: {
@@ -13,7 +14,7 @@ export default {
     },
     invisible: "#FFFFFF00",
     border: {
-      default: "#8C929A",
+      default: "#404040",
       inset: "#35383CE8",
       overlay: "#222327",
       sidebar: "#42A5F5",
@@ -42,12 +43,13 @@ export default {
   },
   editor: {
     activeLineBackground: "#17191A",
-    background: "#1D1F21",
+    background: "#111213",
     foreground: "#FFFFFF",
     cursor: "#1DE9B6",
     error: "#FB8181",
     lineNumbers: "#FFFFFF20",
-    ruler: "#25292C",
+    whiteSpace: "#FFFFFF20",
+    ruler: "#222327",
     warning: "#FACC73",
     tokens: {
       red: "#FF5252",
@@ -71,7 +73,7 @@ export default {
     },
   },
   terminal: {
-    background: "#161719",
+    background: "#111213",
     black: "#252525",
     blue: "#42A5F5",
     cyan: "#00ACC1",
