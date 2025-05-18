@@ -2,7 +2,8 @@ export default {
   canvas: {
     background: {
       default: "#111213",
-      defaultHover: "#35383C4F",
+      defaultHover: "#1a1d1e",
+      defaultActive: "#1a1d1e",
       overlay: "#111213",
     },
     foreground: {
@@ -13,7 +14,7 @@ export default {
     },
     invisible: "#FFFFFF00",
     border: {
-      default: "#8C929A",
+      default: "#404040",
       inset: "#35383CE8",
       overlay: "#222327",
       sidebar: "#42A5F5",
