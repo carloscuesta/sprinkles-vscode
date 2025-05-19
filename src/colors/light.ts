@@ -47,8 +47,8 @@ export default {
     foreground: "#1B1F23",
     cursor: "#24292f",
     error: "#CF222E",
-    lineNumbers: "#1B1F234D",
-    whiteSpace: "#1B1F234D",
+    lineNumbers: "#d4d4d4",
+    whiteSpace: "#e5e5e5",
     ruler: "#e8eaec",
     warning: "#9A6700",
     tokens: {
