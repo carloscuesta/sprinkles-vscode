@@ -10,7 +10,7 @@ jobs:
     steps:
       - uses: actions/checkout@v5
       - name: Install Node.js 📦
-        uses: actions/setup-node@v5
+        uses: actions/setup-node@v6
         with:
           node-version: "16.x"
       - name: Install dependencies 📦
