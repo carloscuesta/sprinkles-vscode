@@ -58,5 +58,6 @@
   },
   "sponsor": {
     "url": "https://github.com/sponsors/carloscuesta"
-  }
+  },
+  "packageManager": "npm@11.6.2"
 }
