@@ -8,7 +8,7 @@ This document provides a comprehensive overview of the Sprinkles VSCode theme pr
 
 ### Key Features
 
-- Dark and light theme variants
+- Dark, light and cream theme variants
 - Comprehensive syntax highlighting for multiple languages
 - Carefully designed UI colors for VSCode interface elements
 - Terminal color customization
@@ -23,11 +23,13 @@ sprinkles-vscode/
 ├── src/                    # Source code
 │   ├── colors/            # Color palette definitions
 │   │   ├── index.ts      # Color loader/selector
+│   │   ├── cream.ts      # Cream theme color palette
 │   │   ├── dark.ts       # Dark theme color palette
 │   │   └── light.ts      # Light theme color palette
 │   ├── theme.ts           # Theme generator (main logic)
 │   └── index.ts           # Build script entry point
 ├── themes/                # Generated theme JSON files (output)
+│   ├── sprinkles-cream.json
 │   ├── sprinkles-dark.json
 │   └── sprinkles-light.json
 ├── images/                # Extension assets (icon)
@@ -65,7 +67,7 @@ sprinkles-vscode/
 
 - Entry point for theme generation
 - Creates `themes/` directory if it doesn't exist
-- Generates both dark and light theme JSON files
+- Generates dark, light and cream theme JSON files
 - Writes formatted JSON output with proper error handling
 
 #### 2. **src/theme.ts**
@@ -84,6 +86,7 @@ sprinkles-vscode/
 - `index.ts`: Exports color getter function based on variant
 - `dark.ts`: Dark theme color definitions
 - `light.ts`: Light theme color definitions
+- `cream.ts`: Cream theme color definitions
 - Color structure includes:
   - Canvas colors (UI elements)
   - Editor colors (code editor specific)
@@ -143,8 +146,6 @@ Uses nodemon to watch `src/` directory and rebuild on changes.
 
 ### Testing the Theme
 
-#### Method 1: Debug Mode
-
 1. Open project in VSCode
 2. Press `F5` or go to Run & Debug panel
 3. Select "Extension" configuration
@@ -153,13 +154,6 @@ Uses nodemon to watch `src/` directory and rebuild on changes.
 6. Open Command Palette (`Cmd+Shift+P` or `Ctrl+Shift+P`)
 7. Select "Preferences: Color Theme"
 8. Choose "Sprinkles Dark" or "Sprinkles Light"
-
-#### Method 2: Local Installation
-
-```bash
-npm run publish:vsce -- --no-publish
-code --install-extension sprinkles-vscode-*.vsix
-```
 
 ### Code Quality
 
@@ -218,6 +212,7 @@ npx prettier --write .
 1. Edit color palettes:
    - Dark: `src/colors/dark.ts`
    - Light: `src/colors/light.ts`
+   - Cream: `src/colors/cream.ts`
 
 2. Rebuild:
 

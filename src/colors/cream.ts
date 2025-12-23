@@ -1,0 +1,87 @@
+export default {
+  canvas: {
+    background: {
+      default: "#f5f1e8",
+      defaultHover: "#ebe7de",
+      defaultActive: "#ebe7de",
+      overlay: "#f5f1e8",
+    },
+    foreground: {
+      default: "#24292f",
+      muted: "#9DA5AE",
+      opacity: "#9DA5AE46",
+      highlight: "#097ADA",
+    },
+    invisible: "#f7f4ec00",
+    border: {
+      default: "#c8c4bb",
+      inset: "#dedad1",
+      overlay: "#dedad1",
+      sidebar: "#42A5F5",
+    },
+    badge: {
+      background: "#FF5252",
+      foreground: "#f5f1e8",
+    },
+    input: {
+      background: "#f5f1e8",
+    },
+    inputOption: {
+      default: "#42A5F5",
+    },
+    notifications: {
+      error: "#FF443E",
+      info: "#42A5F5",
+      warning: "#FFC135",
+    },
+    button: {
+      primary: {
+        background: "#f5f1e8",
+        hover: "#ebe7de",
+      },
+    },
+  },
+  editor: {
+    activeLineBackground: "#ebe7de",
+    background: "#f5f1e8",
+    foreground: "#1B1F23",
+    cursor: "#24292f",
+    error: "#CF222E",
+    lineNumbers: "#c4bcb0",
+    whiteSpace: "#dcd8cf",
+    ruler: "#dedad1",
+    warning: "#9A6700",
+    tokens: {
+      red: "#DC3838",
+      pink: "#DE2972",
+      green: "#8c9c00",
+      amber: "#a66c00",
+      default: "#24292f",
+      teal: "#637C74",
+      cyan: "#009fb1",
+      blue: "#107CC0",
+      gray: "#69788C",
+      darkGray: "#9ea8b4",
+      softGreen: "#C3E88D",
+      softRed: "#D73B5B",
+      softViolet: "#9B59C9",
+    },
+    gutter: {
+      added: "#4ac26b",
+      deleted: "#ff8182",
+      modified: "#eac54f",
+    },
+  },
+  terminal: {
+    background: "#f5f1e8",
+    black: "#252525",
+    blue: "#42A5F5",
+    cyan: "#00ACC1",
+    foreground: "#B0BDC4",
+    green: "#C3D82C",
+    magenta: "#D81B60",
+    red: "#FF443E",
+    white: "#faf8f3",
+    yellow: "#FFC135",
+  },
+} as const;
