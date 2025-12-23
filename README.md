@@ -9,7 +9,7 @@
 
 </div>
 
-<img src="https://res.cloudinary.com/carloscuesta/image/upload/v1747600526/sprinkles-vscode_axuznh.gif" alt="sprinkles-vscode" width="1600">
+<img src="https://res.cloudinary.com/carloscuesta/image/upload/v1766532574/sprinkles-vscode/sprinkles-vscode.gif" alt="sprinkles-vscode" width="1600">
 
 ## Install
 
