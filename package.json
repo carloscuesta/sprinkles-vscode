@@ -33,6 +33,11 @@
         "label": "Sprinkles Light",
         "uiTheme": "vs",
         "path": "./themes/sprinkles-light.json"
+      },
+      {
+        "label": "Sprinkles Cream",
+        "uiTheme": "vs",
+        "path": "./themes/sprinkles-cream.json"
       }
     ]
   },

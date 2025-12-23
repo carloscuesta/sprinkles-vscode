@@ -27,6 +27,7 @@ import theme from "./theme";
 
     await writeTheme("sprinkles-dark", theme("dark"));
     await writeTheme("sprinkles-light", theme("light"));
+    await writeTheme("sprinkles-cream", theme("cream"));
   } catch (error) {
     if (error instanceof Error) {
       throw Error(error.message);
