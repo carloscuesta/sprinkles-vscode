@@ -46,11 +46,15 @@ import light from "sprinkles-vscode/themes/sprinkles-light.json";
 
 ### Dark
 
-<img width="1512" alt="Sprinkles Theme VSCode Dark" src="https://res.cloudinary.com/carloscuesta/image/upload/v1747600141/sprinkles-dark_xhjgjh.png">
+<img width="1512" alt="Sprinkles Theme VSCode Dark" src="https://res.cloudinary.com/carloscuesta/image/upload/v1766531729/sprinkles-vscode/dark.png">
 
 ### Light
 
-<img width="1512" alt="Sprinkles Theme VSCode Light" src="https://res.cloudinary.com/carloscuesta/image/upload/v1747600141/sprinkles-light_ojcoxw.png">
+<img width="1512" alt="Sprinkles Theme VSCode Light" src="https://res.cloudinary.com/carloscuesta/image/upload/v1766531729/sprinkles-vscode/light.png">
+
+## Cream
+
+<img width="1512" alt="Sprinkles Theme VSCode Cream" src="https://res.cloudinary.com/carloscuesta/image/upload/v1766531728/sprinkles-vscode/cream.png ">
 
 ## Colors
 
