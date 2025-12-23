@@ -40,6 +40,7 @@ You can import the theme anywhere by installing it as a dependency:
 ```js
 import dark from "sprinkles-vscode/themes/sprinkles-dark.json";
 import light from "sprinkles-vscode/themes/sprinkles-light.json";
+import cream from "sprinkles-vscode/themes/sprinkles-cream.json";
 ```
 
 ## Screenshots
