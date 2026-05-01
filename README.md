@@ -5,7 +5,6 @@
 
 [![Build Status](https://img.shields.io/github/actions/workflow/status/carloscuesta/sprinkles-vscode/ci.yml?branch=master&style=flat-square)](https://github.com/carloscuesta/sprinkles-vscode/actions?query=workflow%3ACI+branch%3Amaster)
 [![License](https://img.shields.io/github/license/carloscuesta/sprinkles-vscode?style=flat-square)](https://github.com/carloscuesta/sprinkles-vscode/blob/master/LICENSE)
-![Visual Studio Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/carloscuesta.sprinkles-vscode?style=flat-square)
 
 </div>
 
