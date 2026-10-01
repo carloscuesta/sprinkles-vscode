@@ -45,12 +45,12 @@
   },
   "devDependencies": {
     "@types/lodash.startcase": "4.4.9",
-    "@vscode/vsce": "3.9.2",
+    "@vscode/vsce": "4.0.0",
     "husky": "^9.1.7",
-    "lint-staged": "^17.4.1",
+    "lint-staged": "^17.6.0",
     "lodash.startcase": "4.4.0",
     "nodemon": "3.1.14",
-    "prettier": "^3.9.6",
+    "prettier": "^3.9.9",
     "ts-node": "10.9.2"
   },
   "scripts": {
